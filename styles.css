@@ -1,0 +1,95 @@
+body {
+    font-family: Futura , sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(247, 225, 225);
+}
+h1 {
+    font-size: 48px;
+}
+header {
+    background-image: url('images/disco-thoughtcabinet-wallpaper-4k.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    text-align: left;
+    margin: 0;
+    padding: 10px 0;   
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    padding: 10px;
+}
+.link-box {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+footer {
+    background-image: url('images/disco-thoughtcabinet-wallpaper-4k.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    padding: 20px;
+    text-align: right;
+    background-position: bottom; 
+    color :aliceblue
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.character {
+    flex: 4 4;
+    box-sizing: border-box;
+    text-align: center;
+    max-width: 400px; 
+    padding: 15px;
+}
+ 
+.character img {
+    width: 100%; 
+    height: auto;
+    border-radius: 10px; 
+    
+}
+
+.characters {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(160px, 1fr));
+    flex-wrap: wrap; 
+}
+
+button {
+    margin: 15px;
+}
